@@ -96,7 +96,7 @@ body {
   position: absolute;
   top: 80%;            /* 화면 높이에 따라 상대적으로 설정 (예: 75% 위치) */
   left: 50%;           /* 화면 가로 중앙에 위치 */
-  transform: translateX(-50%);  /* 정확히 수평 중앙에 맞추기 위해 */
+  transform: translateX(-50%);  !important;/* 정확히 수평 중앙에 맞추기 위해 */
   width: 8vw;         /* 뷰포트 너비의 8%로 설정 */
   height: 6vh;         /* 뷰포트 높이의 6%로 설정 */
   border-radius: 1vh;
