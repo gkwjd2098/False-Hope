@@ -112,13 +112,7 @@ function reset() {
 spinButton.addEventListener('click', spin);
 resetButton.addEventListener('click', reset);
 
-spinButton.addEventListener('mousedown', () => {
-  spinButton.style.transform = 'translateX(-50%) scale(0.95)';
-});
 
-spinButton.addEventListener('mouseup', () => {
-  spinButton.style.transform = 'translateX(-50%) scale(1)';
-});
 
 // Initialize reels
 reels.forEach(reel => {
