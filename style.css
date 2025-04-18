@@ -115,10 +115,6 @@ body {
 
 
 
-.frame .rectangle:active {
-  transform: scale(0.95);
-}
-
 .reel.shine {
   animation: shine 0.5s ease-in-out 3;
 }
