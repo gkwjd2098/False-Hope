@@ -117,7 +117,6 @@ spinButton.addEventListener('mousedown', () => {
 });
 
 spinButton.addEventListener('mouseup', () => {
-  spinButton.style.transform = 'scale(1)';
 });
 
 // Initialize reels
