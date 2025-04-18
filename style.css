@@ -94,7 +94,7 @@ body {
 
 .frame .rectangle {
   position: absolute;  /* 화면 크기 변화에 따라 위치가 유지되도록 absolute 유지 */
-  top: 75%;            /* 화면 높이에 따라 상대적으로 설정 (예: 75% 위치) */
+  top: 80%;            /* 화면 높이에 따라 상대적으로 설정 (예: 75% 위치) */
   left: 50%;           /* 화면 가로 중앙에 위치 */
   transform: translateX(-50%);  /* 정확히 수평 중앙에 맞추기 위해 */
   width: 10vw;         /* 뷰포트 너비의 10%로 설정 */
