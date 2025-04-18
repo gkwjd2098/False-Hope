@@ -96,10 +96,10 @@ body {
   position: absolute;
   width: 91px;
   height: 52px;
-  top: 600px;
-  left: 675px;
+ top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   border-radius: 10px;
-  transform: translate(-50%, -50%); /* 크기 유지하면서 정확히 중앙 배치 */
   background: radial-gradient(
     50% 50% at 50% 50%,
     rgba(255, 149, 68, 1) 0%,
@@ -125,8 +125,9 @@ body {
 
 .frame .text-wrapper-2 {
   position: absolute;
-  top: 90px;
-  left: 507px;
+ top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-family: "Pixelify Sans", Helvetica;
   transform: translate(-50%, -50%); /* 크기 유지하면서 정확히 중앙 배치 */
   font-weight: 400;
