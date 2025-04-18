@@ -93,11 +93,11 @@ body {
 }
 
 .frame .rectangle {
-  position: absolute;  /* 화면 크기 변화에 따라 위치가 유지되도록 absolute 유지 */
+  position: absolute;
   top: 80%;            /* 화면 높이에 따라 상대적으로 설정 (예: 75% 위치) */
   left: 50%;           /* 화면 가로 중앙에 위치 */
   transform: translateX(-50%);  /* 정확히 수평 중앙에 맞추기 위해 */
-  width: 10vw;         /* 뷰포트 너비의 10%로 설정 */
+  width: 8vw;         /* 뷰포트 너비의 8%로 설정 */
   height: 6vh;         /* 뷰포트 높이의 6%로 설정 */
   border-radius: 1vh;
   background: radial-gradient(
@@ -106,12 +106,13 @@ body {
     rgba(215, 1, 65, 1) 100%
   );
   cursor: pointer;
-  transition: transform 0.1s ease;
+  transition: transform 0.1s ease; /* 크기 변화만 부드럽게 */
 }
 
 .frame .rectangle:active {
-  transform: scale(0.95);
+  transform: translateX(-50%) scale(0.95);  /* 위치 변화 없이 크기만 줄임 */
 }
+
 
 
 .frame .rectangle:active {
