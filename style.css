@@ -99,6 +99,7 @@ body {
   top: 600px;
   left: 675px;
   border-radius: 10px;
+  transform: translate(-50%, -50%); /* 크기 유지하면서 정확히 중앙 배치 */
   background: radial-gradient(
     50% 50% at 50% 50%,
     rgba(255, 149, 68, 1) 0%,
@@ -127,6 +128,7 @@ body {
   top: 90px;
   left: 507px;
   font-family: "Pixelify Sans", Helvetica;
+  transform: translate(-50%, -50%); /* 크기 유지하면서 정확히 중앙 배치 */
   font-weight: 400;
   color: #ff2fb6;
   font-size: 48px;
